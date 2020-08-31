@@ -1,0 +1,36 @@
+body{
+
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(222,168,248,1) 0%, rgba(168,222,248,1) 21.8%, rgba(189,250,205,1) 35.6%, rgba(243,250,189,1) 52.9%, rgba(250,227,189,1) 66.8%, rgba(248,172,172,1) 90%, rgba(254,211,252,1) 99.7% );
+  font-family: 'Ubuntu', serif;
+  /* color:#40a8c4; */
+  color: #dc3545;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 1%;
+}
+
+#gameContainer{
+  margin: 0;
+}
+.cell{
+  display: flex;
+  justify-content: center;
+  border: 2px solid #145374;
+  width:60px;
+  height:60px;
+  text-align: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #ed6663;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+
+}
+.btn{
+  margin: 1%;
+}

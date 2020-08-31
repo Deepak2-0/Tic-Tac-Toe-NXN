@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h3>Enter Player1's Name</h3>
+    <input type="text" id="p1" name="player1" value="">
+
+    <h3>Enter Player2's Name</h3>
+    <input type="text" id="p2" name="player2" value="">
+
+    <br>
+
+    <label for="dimension"><h3>Select Dimension To Play</h3></label>
+
+    <select id="list" name="list">
+      <!-- <option value="option">Select Dimension to Play</option> -->
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+    </select>
+    <br>
+    <button class="startButton btn btn-dark" type="button" name="button" onclick="start()">Enter</button>
+
+    <div id="gameContainer" class="">
+
+      <div class="turn"></div>
+
+
+    </div>
+
+    <button class="btn btn-dark" type="button" name="button" onclick="location.reload()">Play Again</button>
+
+
+  <script src="script.js" charset="utf-8"></script>
+  </body>
+</html>
